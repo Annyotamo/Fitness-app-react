@@ -179,6 +179,7 @@ $red: rgb(224, 73, 73);
     div {
         @include center($direction: column);
         padding: 1.25rem;
+        // border-radius: 5px;
         width: 7rem;
     }
     div:hover {
@@ -350,18 +351,6 @@ a {
                     text-transform: capitalize;
                 }
             }
-        }
-    }
-}
-
-@media screen and (max-width: 1200px) {
-    .exercise-content-container {
-        gap: 0rem;
-        @include center($main: space-evenly);
-        flex-wrap: nowrap;
-
-        div {
-            width: 20rem;
         }
     }
 }
